@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Pizza",
+    "description": 400,
+    "image": "https://i.imgur.com/eTmWoAN.png",
+    "price": 150,
+    "currency": "EUR"
+
+  },
+  {
+    "name": "Salad",
+    "description": 150,
+    "image": "https://i.imgur.com/DupGBz5.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Sweet Potato",
+    "description": 120,
+    "image": "https://i.imgur.com/hGraGyR.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Gnocchi",
+    "description": 500,
+    "image": "https://i.imgur.com/93ekwW0.jpg",
+    "price": 0,
+    "currency": "EUR"
+
+  },
+  {
+    "name": "Pot Roast",
+    "description": 350,
+    "image": "https://i.imgur.com/WCzJDWz.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Lasagna",
+    "description": 750,
+    "image": "https://i.imgur.com/ClxOafl.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Hamburger",
+    "description": 400,
+    "image": "https://i.imgur.com/LoG39wK.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Pad Thai",
+    "description": 475,
+    "image": "https://i.imgur.com/5ktcSzF.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Almonds",
+    "description": 75,
+    "image": "https://i.imgur.com/JRp4Ksx.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "paris",
+    "description": 175,
+    "image": "https://i.imgur.com/7GlqDsG.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Hot Dog",
+    "description": 275,
+    "image": "https://i.imgur.com/QqVHdRu.jpg",
+    "price": 0
+  },
+  {
+    "name": "Chocolate Cake",
+    "description": 490,
+    "image": "https://i.imgur.com/yrgzA9x.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Wheat Bread",
+    "description": 175,
+    "image": "https://i.imgur.com/TsWzMfM.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Orange",
+    "description": 85,
+    "image": "https://i.imgur.com/abKGOcv.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Banana",
+    "description": 175,
+    "image": "https://i.imgur.com/BMdJhu5.jpg",
+    "price": 0,
+    "currency": "EUR"
+  },
+  {
+    "name": "Yogurt",
+    "desctiprion": 125,
+    "image": "https://i.imgur.com/URhdrAm.png",
+    "price": 0
+    
+  }
+]
