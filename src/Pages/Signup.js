@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {signup} from '../utils/auth';
-import Navbar from '../Components/Navbar'
 import DefaultLayout from '../Components/DefaultNav'
 
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import {Link} from 'react-router-dom';
 import './AllProduct.css'
 import DefaultLayout from '../Components/DefaultNav'
 
@@ -20,7 +19,6 @@ export default class DeleteProduct extends Component {
     }
 
     handleDelete=(id)=>{
-        const currentproducts = this.state.products;
         axios.delete(`http://localhost:3000/products/${id}`)
         .then(()=>{  
                 this.componentDidMount();            

@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import logo from '../logo.svg'
-import styled from 'styled-components';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {getUser} from '../utils/auth'
@@ -10,19 +8,17 @@ import {Fragment} from "react";
 
 export default function Navbar() {
   let user = getUser();
-
-    return (
-       
+    return ( 
       <Fragment> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Taxi Tour</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+              <Link className="navbar-brand" to="/shopping/allproduct">Taxi Tour</Link>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
               </button>
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 {user ?  
                 <div>
-                   <ul class="navbar-nav mr-auto">
+                   <ul className="navbar-nav mr-auto">
                       <li className="nav-item">
                         <Link className = "nav-link" to="/shopping/reservation">Reservation</Link>
                       </li>

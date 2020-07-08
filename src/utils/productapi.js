@@ -14,7 +14,6 @@ export const product = (product) => {
         data: qs.stringify(product)
     })
     .then((response)=> {
-       // setproduct(response.data);
     })
     .catch((error) => {
         console.log(error);

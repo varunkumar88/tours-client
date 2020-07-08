@@ -8,5 +8,4 @@ const ProtectRoute = (props) => {
         else
              return <Route path={props.path} component={props.component} />
 }
-
 export default ProtectRoute;

@@ -1,17 +1,14 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import {Link} from 'react-router-dom';
 import './AllProduct.css'
 import DefaultLayout from '../Components/DefaultNav'
 
 export default class products extends Component {
-
-    constructor(){
+  constructor(){
         super();
         this.state={
             products:[]
         }
-
     }
 
     componentDidMount(){
@@ -23,24 +20,7 @@ export default class products extends Component {
 
     handleReserve=(id)=>{
         this.props.history.push('/shopping/reserve');
-
-        const currentproducts = this.state.products;
-
-    // Remove deleted item from state.
-    /*
-        axios.delete(`http://localhost:3000/products/${id}`)
-        .then(()=>{         
-          this.props.history.push('/shopping/reserve');
-        })
-        .catch((error)=>{
-          console.log(error);
-          this.setState({
-            error: error.response.data.message
-          })
-        })*/
       }
-
-
     render() {
  return(  
    <DefaultLayout>
